@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready text-sm lg:text-base"
+  style="--bg: #fff"
+  lang="en-us"
+>
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>Github &#43; Hugo - inYun</title>
+
+  
+  <meta name="theme-color" />
+  
+  <meta name="description" content="详情 hugo：官网地址
+Go-lang：官网地址
+Git：官网地址
+辅助工具 -&gt; Github Proxy：官网地址
+🍺 文章适合有一定基础的，最起码你能看懂我在讲什么，并不适合小白操作。（部分略写，看不懂可以Google等）
+配置环境 我们先下载好 hugo，这里我推荐直接去 Github 下载打包好的，或者你可以通过官网文档查询更多下载方式。
+下载好之后解压缩到文件夹里面，并添加到系统变量。
+检测安装是否成功：hugo version
+前往 Go-lang 官网 安装适合自己的版本。
+安装 git 工具，前往 Git 官网 安装适合自己的版本。
+初始化项目 我们创建一个 Github 空仓库。
+通过 hugo new site &lt;name&gt; 初始化创建一个 hugo 项目。
+编辑项目 我们去 官网 找到自己喜欢的皮肤。 检查 Go-lang 是否安装成功：go version。 我选择的主题是：Paper 使用 Git Submodule 指令安装皮肤 git submodule add https://github.com/nanxiaobei/hugo-paper.git themes/paper 输入 hugo server -t paper 前往地址 localhost:1313 可以进行预览。 Tips：参数 -t paper是指定 paper 这个皮肤进行预览。" />
+  <meta
+    name="author"
+    content=""
+  />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="http://inyun.cc/main.min.css" />
+
+  
+
+  
+     
+  <link rel="preload" as="image" href="http://inyun.cc/theme.png" />
+
+  
+  
+  
+  <link rel="preload" as="image" href="https://img1.imgtp.com/2022/11/26/UKG7LtUU.jpg" />
+  
+  
+
+  
+  <link rel="preload" as="image" href="http://inyun.cc/github.svg" />
+  
+
+  
+  <link rel="icon" href="http://inyun.cc/favicon.ico" />
+  <link rel="apple-touch-icon" href="http://inyun.cc/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.107.0">
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:title" content="Github &#43; Hugo" />
+<meta property="og:description" content="详情 hugo：官网地址
+Go-lang：官网地址
+Git：官网地址
+辅助工具 -&gt; Github Proxy：官网地址
+🍺 文章适合有一定基础的，最起码你能看懂我在讲什么，并不适合小白操作。（部分略写，看不懂可以Google等）
+配置环境 我们先下载好 hugo，这里我推荐直接去 Github 下载打包好的，或者你可以通过官网文档查询更多下载方式。
+下载好之后解压缩到文件夹里面，并添加到系统变量。
+检测安装是否成功：hugo version
+前往 Go-lang 官网 安装适合自己的版本。
+安装 git 工具，前往 Git 官网 安装适合自己的版本。
+初始化项目 我们创建一个 Github 空仓库。
+通过 hugo new site &lt;name&gt; 初始化创建一个 hugo 项目。
+编辑项目 我们去 官网 找到自己喜欢的皮肤。 检查 Go-lang 是否安装成功：go version。 我选择的主题是：Paper 使用 Git Submodule 指令安装皮肤 git submodule add https://github.com/nanxiaobei/hugo-paper.git themes/paper 输入 hugo server -t paper 前往地址 localhost:1313 可以进行预览。 Tips：参数 -t paper是指定 paper 这个皮肤进行预览。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://inyun.cc/post/github-&#43;-hugo/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-11-28T20:06:48+08:00" />
+<meta property="article:modified_time" content="2022-11-28T20:06:48+08:00" />
+
+
+  
+  <meta itemprop="name" content="Github &#43; Hugo">
+<meta itemprop="description" content="详情 hugo：官网地址
+Go-lang：官网地址
+Git：官网地址
+辅助工具 -&gt; Github Proxy：官网地址
+🍺 文章适合有一定基础的，最起码你能看懂我在讲什么，并不适合小白操作。（部分略写，看不懂可以Google等）
+配置环境 我们先下载好 hugo，这里我推荐直接去 Github 下载打包好的，或者你可以通过官网文档查询更多下载方式。
+下载好之后解压缩到文件夹里面，并添加到系统变量。
+检测安装是否成功：hugo version
+前往 Go-lang 官网 安装适合自己的版本。
+安装 git 工具，前往 Git 官网 安装适合自己的版本。
+初始化项目 我们创建一个 Github 空仓库。
+通过 hugo new site &lt;name&gt; 初始化创建一个 hugo 项目。
+编辑项目 我们去 官网 找到自己喜欢的皮肤。 检查 Go-lang 是否安装成功：go version。 我选择的主题是：Paper 使用 Git Submodule 指令安装皮肤 git submodule add https://github.com/nanxiaobei/hugo-paper.git themes/paper 输入 hugo server -t paper 前往地址 localhost:1313 可以进行预览。 Tips：参数 -t paper是指定 paper 这个皮肤进行预览。"><meta itemprop="datePublished" content="2022-11-28T20:06:48+08:00" />
+<meta itemprop="dateModified" content="2022-11-28T20:06:48+08:00" />
+<meta itemprop="wordCount" content="209">
+<meta itemprop="keywords" content="" />
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Github &#43; Hugo"/>
+<meta name="twitter:description" content="详情 hugo：官网地址
+Go-lang：官网地址
+Git：官网地址
+辅助工具 -&gt; Github Proxy：官网地址
+🍺 文章适合有一定基础的，最起码你能看懂我在讲什么，并不适合小白操作。（部分略写，看不懂可以Google等）
+配置环境 我们先下载好 hugo，这里我推荐直接去 Github 下载打包好的，或者你可以通过官网文档查询更多下载方式。
+下载好之后解压缩到文件夹里面，并添加到系统变量。
+检测安装是否成功：hugo version
+前往 Go-lang 官网 安装适合自己的版本。
+安装 git 工具，前往 Git 官网 安装适合自己的版本。
+初始化项目 我们创建一个 Github 空仓库。
+通过 hugo new site &lt;name&gt; 初始化创建一个 hugo 项目。
+编辑项目 我们去 官网 找到自己喜欢的皮肤。 检查 Go-lang 是否安装成功：go version。 我选择的主题是：Paper 使用 Git Submodule 指令安装皮肤 git submodule add https://github.com/nanxiaobei/hugo-paper.git themes/paper 输入 hugo server -t paper 前往地址 localhost:1313 可以进行预览。 Tips：参数 -t paper是指定 paper 这个皮肤进行预览。"/>
+
+  
+  
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[5rem] max-w-3xl px-8 lg:justify-center">
+  <div class="relative z-50 mr-auto flex items-center">
+    <a
+      class="-translate-x-[1px] -translate-y-0.5 text-3xl font-bold"
+      href="http://inyun.cc"
+      >inYun</a
+    >
+    <a
+      class="btn-dark ml-6 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.svg)_left_center/cover_no-repeat] dark:invert dark:[background-position:right]"
+    ></a>
+  </div>
+
+  <a
+    class="btn-menu relative z-50 -mr-8 flex h-[5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+  ></a>
+
+  
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = `"#fff"`.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+
+    
+    <nav
+      class="mt-12 flex justify-center space-x-10 dark:invert lg:mt-0 lg:ml-12 lg:items-center lg:space-x-6"
+    >
+      
+      <a
+        class="h-8 w-8 [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href=" https://github.com/inyv "
+        target="_blank"
+      ></a>
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-10rem)] max-w-3xl px-8 pt-20 pb-32 dark:prose-invert"
+    >
+      
+
+<article>
+  <header class="mb-20">
+    <h1 class="!my-0 pb-2.5">Github &#43; Hugo</h1>
+
+    
+    <div class="text-sm opacity-60">
+      
+      <time>Nov 28, 2022</time>
+      
+      
+    </div>
+    
+  </header>
+
+  <section><h2 id="详情">详情</h2>
+<p><strong>hugo</strong>：<a href="gohugo.io">官网地址</a></p>
+<p><strong>Go-lang</strong>：<a href="https://go.dev/">官网地址</a></p>
+<p><strong>Git</strong>：<a href="https://git-scm.com/">官网地址</a></p>
+<p><em>辅助工具 -&gt;</em> <strong>Github Proxy</strong>：<a href="https://ghproxy.com/">官网地址</a></p>
+<blockquote>
+<p>🍺 文章适合有一定基础的，最起码你能看懂我在讲什么，并不适合小白操作。（部分略写，看不懂可以Google等）</p>
+</blockquote>
+<h2 id="配置环境">配置环境</h2>
+<ol>
+<li>
+<p>我们先下载好 <code>hugo</code>，这里我推荐直接去 <a href="https://github.com/gohugoio/hugo/releases">Github</a> 下载打包好的，或者你可以通过官网文档查询更多下载方式。</p>
+</li>
+<li>
+<p>下载好之后解压缩到文件夹里面，并添加到系统变量。</p>
+</li>
+<li>
+<p>检测安装是否成功：<code>hugo version</code></p>
+</li>
+<li>
+<p>前往 <code>Go-lang</code> <a href="https://go.dev/">官网</a> 安装适合自己的版本。</p>
+</li>
+<li>
+<p>安装 git 工具，前往 <code>Git</code> <a href="https://git-scm.com/">官网</a> 安装适合自己的版本。</p>
+</li>
+</ol>
+<h2 id="初始化项目">初始化项目</h2>
+<ol start="6">
+<li>
+<p>我们创建一个 Github 空仓库。</p>
+</li>
+<li>
+<p>通过 <code>hugo new site &lt;name&gt;</code> 初始化创建一个 <code>hugo</code> 项目。</p>
+</li>
+</ol>
+<h2 id="编辑项目">编辑项目</h2>
+<ol>
+<li>我们去 <a href="https://themes.gohugo.io/">官网</a> 找到自己喜欢的皮肤。</li>
+<li>检查 <code>Go-lang</code> 是否安装成功：<code>go version</code>。</li>
+<li>我选择的主题是：<a href="https://themes.gohugo.io/themes/hugo-paper/"><code>Paper</code></a></li>
+</ol>
+<hr>
+<ol start="4">
+<li>使用 <code>Git Submodule</code> 指令安装皮肤</li>
+</ol>
+<pre tabindex="0"><code>git submodule add https://github.com/nanxiaobei/hugo-paper.git themes/paper
+</code></pre><hr>
+<ol start="5">
+<li>输入 <code>hugo server -t paper</code> 前往地址 <code>localhost:1313</code> 可以进行预览。</li>
+</ol>
+<blockquote>
+<p>Tips：参数 <code>-t paper</code>是指定 <code>paper</code> 这个皮肤进行预览。</p>
+</blockquote>
+<ol start="6">
+<li>新建一篇文章 <code>hugo new post/test.md</code></li>
+</ol>
+<blockquote>
+<p>Tips：这个命令在 <code>content</code> 文件夹下创建了 <code>post</code> 文件夹，并写入一个 Markdown 文章。</p>
+</blockquote>
+<ol start="7">
+<li>
+<p>我们可以通过任何 Markdown 编辑器 或者 LINUX/Mac 下的 VIM 编辑器进行编辑 <code>content/post/test.md</code>。</p>
+</li>
+<li>
+<p>进去的时候我们发现了已经为我们编辑好了一部分内容：</p>
+</li>
+</ol>
+<pre tabindex="0"><code>title: &#34;Test&#34;
+date: 2022-11-26T11:58:56+08:00
+draft: true
+</code></pre><p>我们直接在下面开始文章就行。</p>
+<hr>
+<ol start="9">
+<li>编辑好保存后，再进行预览看看：<code>hugo server -t paper -D</code></li>
+</ol>
+<blockquote>
+<p>Tips：这里参数 <code>-D</code> 是 <code>-buildDrafts</code> 在生成静态网站，或预览网站时，草稿内容也会被展示出来。</p>
+</blockquote>
+<h2 id="编辑配置">编辑配置</h2>
+<blockquote>
+<p>Tips： 配置文件是指 hugo 项目下的 <code>config.toml</code> 文件。</p>
+</blockquote>
+<ol>
+<li>
+<p>在里面添加上一句 <code>theme = 'paper'</code> 就是指我们要使用 <code>paper</code> 主题。</p>
+</li>
+<li>
+<p><code>title</code> 就是我们的网站标题，这里也可以给它改成我们想要的。</p>
+</li>
+<li>
+<p>注意每个皮肤都有自己的参数，你可以根据它提供的进行更改，例如 <a href="https://themes.gohugo.io/themes/hugo-paper/#options"><code>paper 选项</code></a></p>
+</li>
+</ol>
+<blockquote>
+<p>Tips：根据你的需要进行添改。</p>
+</blockquote>
+<h2 id="上传-github">上传 Github</h2>
+<ol>
+<li>执行 <code>hugo</code> &lt;- 这是个命令，将项目打包成静态的，可访问的，在项目的 <code>public</code> 文件夹里。</li>
+</ol>
+<hr>
+<ol start="2">
+<li>进入目录并初始化为 Git 项目：</li>
+</ol>
+<pre tabindex="0"><code>cd public
+git init
+</code></pre><hr>
+<ol start="3">
+<li>关联仓库（本地关联Github）：<code>git remote add origin &lt;url&gt;</code></li>
+</ol>
+<blockquote>
+<p><strong>tips：</strong> 参数 &lsquo;url&rsquo; 指你的 Github 仓库地址。</p>
+</blockquote>
+<hr>
+<ol start="4">
+<li>更改本地分支名：<code>git branch -m master main</code></li>
+</ol>
+<blockquote>
+<p>Tips：Github 将仓库的默认分支改为 <code>main</code> 了，我们只需要二选一 改本地的分支名或者 远程的都可以，只要两者分支名一样皆可，这里我改本地的分支名，如下 👇</p>
+</blockquote>
+<pre tabindex="0"><code>git branch -m master main
+
+# git branch -m &lt;分支名&gt; &lt;需要更改的分支名&gt;
+</code></pre><hr>
+<ol start="5">
+<li>将仓库中的 <code>README.md</code> 拉下来：</li>
+</ol>
+<pre tabindex="0"><code>git pull --rebase origin main
+</code></pre><blockquote>
+<p>Tips：此处不拉后面会报错。</p>
+</blockquote>
+<hr>
+<ol start="6">
+<li>正常流程上传</li>
+</ol>
+<pre tabindex="0"><code>git add .
+git commit -m &#34;update&#34;
+git push origin main
+</code></pre><hr>
+<ol start="7">
+<li>如果生成的内容没有文章，请注意了！命令不会生成草稿文章，什么是草稿文章？就是你文章上方的 <code>draft: true</code>，你可以把这行给注释掉再重新执行命令。</li>
+</ol>
+<blockquote>
+<p>Tips：生成 ssh 密钥：<code>ssh-keygen -t rsa -C &quot;your_email@example.com&quot;</code></p>
+</blockquote>
+</section>
+
+  
+  
+
+  
+  
+  
+
+  
+  
+</article>
+
+
+    </main>
+
+    <footer
+  class="opaco mx-auto flex h-[5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60"
+>
+  <div class="mr-auto">
+    &copy; 2022
+    <a class="link" href="http://inyun.cc">inYun</a>
+  </div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >Powered by Hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >▷ Paper 6</a
+  >
+</footer>
+
+  </body>
+</html>

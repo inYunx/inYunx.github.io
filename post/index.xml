@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on inYun</title>
+    <link>http://inyun.cc/post/</link>
+    <description>Recent content in Posts on inYun</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Nov 2022 20:06:48 +0800</lastBuildDate><atom:link href="http://inyun.cc/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github &#43; Hugo</title>
+      <link>http://inyun.cc/post/github-&#43;-hugo/</link>
+      <pubDate>Mon, 28 Nov 2022 20:06:48 +0800</pubDate>
+      
+      <guid>http://inyun.cc/post/github-&#43;-hugo/</guid>
+      <description>详情 hugo：官网地址
+Go-lang：官网地址
+Git：官网地址
+辅助工具 -&amp;gt; Github Proxy：官网地址
+🍺 文章适合有一定基础的，最起码你能看懂我在讲什么，并不适合小白操作。（部分略写，看不懂可以Google等）
+配置环境 我们先下载好 hugo，这里我推荐直接去 Github 下载打包好的，或者你可以通过官网文档查询更多下载方式。
+下载好之后解压缩到文件夹里面，并添加到系统变量。
+检测安装是否成功：hugo version
+前往 Go-lang 官网 安装适合自己的版本。
+安装 git 工具，前往 Git 官网 安装适合自己的版本。
+初始化项目 我们创建一个 Github 空仓库。
+通过 hugo new site &amp;lt;name&amp;gt; 初始化创建一个 hugo 项目。
+编辑项目 我们去 官网 找到自己喜欢的皮肤。 检查 Go-lang 是否安装成功：go version。 我选择的主题是：Paper 使用 Git Submodule 指令安装皮肤 git submodule add https://github.com/nanxiaobei/hugo-paper.git themes/paper 输入 hugo server -t paper 前往地址 localhost:1313 可以进行预览。 Tips：参数 -t paper是指定 paper 这个皮肤进行预览。</description>
+    </item>
+    
+  </channel>
+</rss>
