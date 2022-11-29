@@ -6,7 +6,17 @@
     <description>Recent content in Posts on inYun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Nov 2022 08:02:19 +0800</lastBuildDate><atom:link href="http://inyun.cc/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Nov 2022 10:34:12 +0800</lastBuildDate><atom:link href="http://inyun.cc/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rust环境</title>
+      <link>http://inyun.cc/post/rust%E7%8E%AF%E5%A2%83/</link>
+      <pubDate>Tue, 29 Nov 2022 10:34:12 +0800</pubDate>
+      
+      <guid>http://inyun.cc/post/rust%E7%8E%AF%E5%A2%83/</guid>
+      <description>安装指令 rustup toolchain install stable-x86_64-pc-windows-gnu
+(请在 WINDOWS 环境下，非 MSVC 环境，GUN)</description>
+    </item>
+    
     <item>
       <title>我的博客地址</title>
       <link>http://inyun.cc/post/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%9C%B0%E5%9D%80/</link>
