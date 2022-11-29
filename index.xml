@@ -9,12 +9,11 @@
     <lastBuildDate>Tue, 29 Nov 2022 10:34:12 +0800</lastBuildDate><atom:link href="http://inyun.cc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rust环境</title>
-      <link>http://inyun.cc/post/rust%E7%8E%AF%E5%A2%83/</link>
+      <link>http://inyun.cc/post/rust/rust%E7%8E%AF%E5%A2%83/</link>
       <pubDate>Tue, 29 Nov 2022 10:34:12 +0800</pubDate>
       
-      <guid>http://inyun.cc/post/rust%E7%8E%AF%E5%A2%83/</guid>
-      <description>安装指令 rustup toolchain install stable-x86_64-pc-windows-gnu
-(请在 WINDOWS 环境下，非 MSVC 环境，GUN)</description>
+      <guid>http://inyun.cc/post/rust/rust%E7%8E%AF%E5%A2%83/</guid>
+      <description>安装指令 MinGW 环境 rustup toolchain install stable-x86_64-pc-windows-gnu MSVC 环境 rustup install stable-x86_64-pc-windows-msvc </description>
     </item>
     
     <item>
